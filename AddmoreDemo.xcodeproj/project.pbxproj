@@ -15,6 +15,8 @@
 		0498C9F81EF2980100929BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0498C9F61EF2980100929BB9 /* LaunchScreen.storyboard */; };
 		0498CA031EF2980500929BB9 /* AddmoreDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CA021EF2980500929BB9 /* AddmoreDemoTests.swift */; };
 		0498CA0E1EF2980500929BB9 /* AddmoreDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CA0D1EF2980500929BB9 /* AddmoreDemoUITests.swift */; };
+		0498CA1D1EF2989900929BB9 /* AvalabileTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CA1B1EF2989900929BB9 /* AvalabileTimeView.swift */; };
+		0498CA1E1EF2989900929BB9 /* AvalabileTimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0498CA1C1EF2989900929BB9 /* AvalabileTimeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0498CA091EF2980500929BB9 /* AddmoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddmoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498CA0D1EF2980500929BB9 /* AddmoreDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddmoreDemoUITests.swift; sourceTree = "<group>"; };
 		0498CA0F1EF2980500929BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0498CA1B1EF2989900929BB9 /* AvalabileTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvalabileTimeView.swift; sourceTree = "<group>"; };
+		0498CA1C1EF2989900929BB9 /* AvalabileTimeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvalabileTimeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				0498C9EA1EF297FE00929BB9 /* AppDelegate.swift */,
 				0498C9EC1EF297FE00929BB9 /* ViewController.swift */,
+				0498CA1B1EF2989900929BB9 /* AvalabileTimeView.swift */,
+				0498CA1C1EF2989900929BB9 /* AvalabileTimeView.xib */,
 				0498C9EE1EF297FF00929BB9 /* Main.storyboard */,
 				0498C9F41EF2980100929BB9 /* Assets.xcassets */,
 				0498C9F61EF2980100929BB9 /* LaunchScreen.storyboard */,
@@ -239,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0498C9F81EF2980100929BB9 /* LaunchScreen.storyboard in Resources */,
+				0498CA1E1EF2989900929BB9 /* AvalabileTimeView.xib in Resources */,
 				0498C9F51EF2980100929BB9 /* Assets.xcassets in Resources */,
 				0498C9F01EF297FF00929BB9 /* Main.storyboard in Resources */,
 			);
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0498C9F31EF2980000929BB9 /* AddmoreDemo.xcdatamodeld in Sources */,
+				0498CA1D1EF2989900929BB9 /* AvalabileTimeView.swift in Sources */,
 				0498C9ED1EF297FE00929BB9 /* ViewController.swift in Sources */,
 				0498C9EB1EF297FE00929BB9 /* AppDelegate.swift in Sources */,
 			);
